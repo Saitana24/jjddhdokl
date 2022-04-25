@@ -43,8 +43,8 @@ async def convert_video(video_file, output_directory, total_time, bot, message, 
     ##"-metadata", "title=@Mk255", "-vf", "drawtext=fontfile=njnaruto.ttf:fontsize=20:fontcolor=black:x=15:y=15:text=" "Anime English Dubbed",
      ## -vf eq=gamma=1.4:saturation=1.4
      ## lol 😂
-    crf.insert(0, "29")
-    codec.insert(0, "libx264")
+    crf.insert(0, "27")
+    codec.insert(0, "libx265")
     resolution.insert(0, "800x400")
     audio_b.insert(0, "40k")
     preset.insert(0, "veryfast")
