@@ -6,7 +6,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hello, \n\nThis is a Telegram <b>Video Encoder Bot</b>. \n\n<b>Please send me any Telegram big video file I will compress it as s small video file!</b> \n\n/help for more details. \n\nChannel : @animedubed"
+    START_TEXT = "Hᴇʟʟᴏ Fᴇʟʟᴏᴡ Usᴇʀ ! \n\nI ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴡʜɪᴄʜ ᴇɴᴄᴏᴅᴇ ᴠɪᴅᴇᴏs.</b>. \n\n<b>I ᴄᴀɴ ᴅᴏ ᴀ ʟᴏᴛ ᴏғ ᴛʜɪɴɢs ᴏᴛʜᴇʀ ᴛʜᴀɴ ɪᴜsᴛ ᴇɴᴄᴏᴅɪɴɢ ᴀ ᴠɪᴅᴇᴏ.</b> \n\n/Sᴛᴀʙ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ."
    
     ABS_TEXT = " Please don't be selfish."
     
@@ -15,25 +15,25 @@ class Localisation:
     
     DOWNLOAD_START = " Downloading to Server waitt ...  \n"
     
-    UPLOAD_START = " Uploading 😳...  \n"
+    UPLOAD_START = " ᴜᴘʟᴏᴀᴅɪɴɢ...  \n"
     
-    COMPRESS_START = " Encoding ... "
+    COMPRESS_START = " ᴇɴᴄᴏᴅɪɴɢ ... "
     
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
     
-    COMPRESS_SUCCESS = "@animedubed"
+    COMPRESS_SUCCESS = ""
 
     COMPRESS_PROGRESS = "⏳ ETA: {}\n⚔️ Progress: {}%"
 
-    SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
+    SAVED_CUSTOM_THUMB_NAIL = "ᴄᴜꜱᴛᴏᴍ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴀᴠᴇᴅ. ᴛʜɪꜱ ɪᴍᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴜꜱᴇᴅ ɪɴ ᴛʜᴇ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ."
     
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     
-    SAVED_RECVD_DOC_FILE = "Downloaded Successfully."
+    SAVED_RECVD_DOC_FILE = "ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ."
     
     CUSTOM_CAPTION_UL_FILE = " "
     
