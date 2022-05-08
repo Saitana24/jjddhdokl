@@ -19,7 +19,7 @@ from bot.config import Config
 AUTH_USERS = [1938207469,1820242622]
 
 SESSION_NAME = "Workflow2"
-TG_BOT_TOKEN = "1989200826:AAEGZuNIbfQOPKXDhLFQKhFVWdNsJr8mOGw"
+TG_BOT_TOKEN = "2126359772:AAEIxfidHaag7BYhfdDJuDf8jX1f5bfPYQo"
 APP_ID = 2630541
 API_HASH = "b3829c7abc1b23a555a6b2b2b236e016"
 
@@ -31,7 +31,7 @@ FINISHED_PROGRESS_STR = "▓"
 UN_FINISHED_PROGRESS_STR = "░"
 BOT_START_TIME = time.time()
 LOG_FILE_ZZGEVC = "Log.txt"
-BOT_USERNAME = "aurbhaikaisehoBot"
+BOT_USERNAME = "GhjftudohgyhBot"
 UPDATES_CHANNEL = "Anime_Encoder"
 data = []
 crf = []
