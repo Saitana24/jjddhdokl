@@ -6,14 +6,14 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hᴇʟʟᴏ Fᴇʟʟᴏᴡ Usᴇʀ ! \n\nI ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴡʜɪᴄʜ ᴇɴᴄᴏᴅᴇ ᴠɪᴅᴇᴏs.</b>. \n\n<b>I ᴄᴀɴ ᴅᴏ ᴀ ʟᴏᴛ ᴏғ ᴛʜɪɴɢs ᴏᴛʜᴇʀ ᴛʜᴀɴ ɪᴜsᴛ ᴇɴᴄᴏᴅɪɴɢ ᴀ ᴠɪᴅᴇᴏ.</b> \n\n/Sᴛᴀʙ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ."
+    START_TEXT = "Hᴇʟʟᴏ Fᴇʟʟᴏᴡ Usᴇʀ ! \n\nI ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴡʜɪᴄʜ ᴇɴᴄᴏᴅᴇ ᴠɪᴅᴇᴏs.</b>. \n\nI ᴄᴀɴ ᴅᴏ ᴀ ʟᴏᴛ ᴏғ ᴛʜɪɴɢs ᴏᴛʜᴇʀ ᴛʜᴀɴ ɪᴜsᴛ ᴇɴᴄᴏᴅɪɴɢ ᴀ ᴠɪᴅᴇᴏ.</b> \n\nᴅᴏ /help ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ."
    
     ABS_TEXT = " Please don't be selfish."
     
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     
     
-    DOWNLOAD_START = " Downloading to Server waitt ...  \n"
+    DOWNLOAD_START = " ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛᴏ ᴍʏ sᴇʀᴠᴇʀ... \n"
     
     UPLOAD_START = " ᴜᴘʟᴏᴀᴅɪɴɢ...  \n"
     
