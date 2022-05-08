@@ -103,7 +103,7 @@ if __name__ == "__main__" :
     @app.on_message(filters.incoming & filters.command(["settings", f"settings@{BOT_USERNAME}"]))
     async def settings(app, message):
         if message.from_user.id in AUTH_USERS:
-            await message.reply_text(f"<b>The current settings will be added to your video file :</b>\n\n<b>Codec</b> : {codec[0]} \n<b>Crf</b> : {crf[0]} \n<b>Resolution</b> : {resolution[0]} \n<b>Preset</b> : {preset[0]} \n<b>Audio Bitrates</b> : {audio_b[0]}")
+            await message.reply_text(f"<b>ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ꜱᴇᴛᴛɪɴɢꜱ ᴡɪʟʟ ʙᴇ ᴀᴅᴅᴇᴅ ᴛᴏ ʏᴏᴜʀ ᴠɪᴅᴇᴏ ꜰɪʟᴇ :</b>\n\n<b>ᴄᴏᴅᴇᴄ</b> : {codec[0]} \n<b>ᴄʀꜰ</b> : {crf[0]} \n<b>ʀᴇꜱᴏʟᴜᴛɪᴏɴ</b> : {resolution[0]} \n<b>ᴘʀᴇꜱᴇᴛ</b> : {preset[0]} \n<b>ᴀᴜᴅɪᴏ ʙɪᴛʀᴀᴛᴇꜱ</b> : {audio_b[0]}")
             
             
                
@@ -154,8 +154,8 @@ if __name__ == "__main__" :
     @app.on_message(filters.incoming & filters.command(["compress", f"compress@{BOT_USERNAME}"]))
     async def help_message(app, message):
         if message.chat.id not in AUTH_USERS:
-            return await message.reply_text("You are not authorised to use this bot")
-        query = await message.reply_text("Added to Queue ⏰...\nPlease be patient, Compress will start soon", quote=True)
+            return await message.reply_text("ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴜᴛʜᴏʀɪꜱᴇᴅ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ")
+        query = await message.reply_text("ᴘʟᴇᴀꜱᴇ ʙᴇ ᴘᴀᴛɪᴇɴᴛ, ᴇɴᴄᴏᴅᴇ ᴡɪʟʟ ꜱᴛᴀʀᴛ ꜱᴏᴏɴ", quote=True)
         data.append(message.reply_to_message)
         if len(data) == 1:
          await query.delete()   
@@ -164,7 +164,7 @@ if __name__ == "__main__" :
     @app.on_message(filters.incoming & filters.command(["restart", f"restart@{BOT_USERNAME}"]))
     async def restarter(app, message):
         if message.from_user.id in AUTH_USERS:
-            await message.reply_text("•Restarting")
+            await message.reply_text("ʀᴇꜱᴛᴀʀᴛɪɴɢ ᴛʜᴇ ʙᴏᴛ")
             quit(1)
         
     @app.on_message(filters.incoming & filters.command(["clear", f"clear@{BOT_USERNAME}"]))
@@ -176,8 +176,8 @@ if __name__ == "__main__" :
     @app.on_message(filters.incoming & (filters.video | filters.document))
     async def help_message(app, message):
         if message.chat.id not in AUTH_USERS:
-            return await message.reply_text("You are not authorised to use this bot")
-        query = await message.reply_text("Added to Queue ⏰...\nPlease be patient, Compress will start soon", quote=True)
+            return await message.reply_text("ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴜᴛʜᴏʀɪꜱᴇᴅ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ")
+        query = await message.reply_text("ᴘʟᴇᴀꜱᴇ ʙᴇ ᴘᴀᴛɪᴇɴᴛ, ᴇɴᴄᴏᴅᴇ ᴡɪʟʟ ꜱᴛᴀʀᴛ ꜱᴏᴏɴ", quote=True)
         data.append(message)
         if len(data) == 1:
          await query.delete()   
@@ -186,7 +186,7 @@ if __name__ == "__main__" :
     @app.on_message(filters.incoming & (filters.photo))
     async def help_message(app, message):
         if message.chat.id not in AUTH_USERS:
-            return await message.reply_text("You are not authorised to use this bot")
+            return await message.reply_text("ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴜᴛʜᴏʀɪꜱᴇᴅ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ")
         os.system('rm thumb.jpg')
         await message.download(file_name='/app/thumb.jpg')
         await message.reply_text('Thumbnail Added')
@@ -210,7 +210,7 @@ if __name__ == "__main__" :
    
     @app.on_message(filters.incoming & filters.command(["help", f"help@{BOT_USERNAME}"]))
     async def help_message(app, message):
-        await message.reply_text("Hi, I am <b>Video Encoder bot</b>\n\n➥ Send me your telegram files\n➥ I will encode them one by one as I have <b>queue feature</b>\n➥ Just send me the jpg/pic and it will be set as your custom thumbnail \n➥ For ffmpeg lovers - u can change crf by /eval crf.insert(0, 'crf value')\n➥ Join @spartaenc for animes \n\n🏷<b>Maintained By: @Mk255</b>", quote=True)
+        await message.reply_text("ʜᴇʀᴇ ᴀʀᴇ ᴍʏ sᴏᴍᴇ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.</b>\n\nɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟ ʜɪɢʜ ʟᴇᴠᴇʟ ᴇғғɪᴄɪᴇɴᴄʏ ᴠɪᴅᴇᴏ ᴇɴᴄᴏᴅɪɴɢ ʙᴏᴛ ᴄᴏᴅᴇᴅ ɪɴ ᴘʏᴛʜᴏɴ.\nʏᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴇɴᴄᴏᴅɪɴɢ sᴇᴛᴛɪɴɢs sᴜᴄʜ ᴀs ᴄʀғ, ᴄᴏᴅᴇᴄ, ᴀᴜᴅɪᴏ ʙɪᴛʀᴀᴛᴇs, sᴘᴇᴇᴅ ᴀɴᴅ ǫᴜᴀʟɪᴛʏ.</b>\nʏᴏᴜ ᴄᴀɴ sᴛᴏᴘ ᴘʀᴏᴄᴇssᴇs ɪɴ ʙᴇᴛᴡᴇᴇɴ ᴘʀᴇssɪɴɢ ᴛʜᴇ ᴄᴀɴᴄᴇʟ ʙᴜᴛᴛᴏɴ. \nꜰᴏʀ ꜰꜰᴍᴘᴇɢ ʟᴏᴠᴇʀꜱ - ᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴄʀꜰ ʙʏ /ᴇᴠᴀʟ ᴄʀꜰ.ɪɴꜱᴇʀᴛ(0, 'ᴄʀꜰ ᴠᴀʟᴜᴇ')\nᴊᴏɪɴ @ᴀɴɪᴍᴇᴅᴜʙᴇᴅ ꜰᴏʀ ᴀɴɪᴍᴇꜱ \n\n🏷<b>Maintained By: @Mk255</b>", quote=True)
 
     @app.on_message(filters.incoming & filters.command(["corrupt", f"corrupt@{BOT_USERNAME}"]))
     async def help_message(app, message):
