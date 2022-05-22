@@ -44,7 +44,7 @@ async def convert_video(video_file, output_directory, total_time, bot, message, 
      ## -vf eq=gamma=1.4:saturation=1.4
      ## lol 😂
     crf.insert(0, "28")
-    codec.insert(0, "libx265")
+    codec.insert(0, "libx264")
     resolution.insert(0, "800x400")
     audio_b.insert(0, "40k")
     preset.insert(0, "veryfast")
