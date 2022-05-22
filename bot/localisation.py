@@ -6,7 +6,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hᴇʟʟᴏ Fᴇʟʟᴏᴡ Usᴇʀ ! \n\nI ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴡʜɪᴄʜ ᴇɴᴄᴏᴅᴇ ᴠɪᴅᴇᴏs.</b>. \n\nI ᴄᴀɴ ᴅᴏ ᴀ ʟᴏᴛ ᴏғ ᴛʜɪɴɢs ᴏᴛʜᴇʀ ᴛʜᴀɴ ɪᴜsᴛ ᴇɴᴄᴏᴅɪɴɢ ᴀ ᴠɪᴅᴇᴏ.</b> \n\nᴅᴏ /help ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ."
+    START_TEXT = "Hᴇʟʟᴏ Fᴇʟʟᴏᴡ Usᴇʀ ! \n\nI ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴡʜɪᴄʜ ᴇɴᴄᴏᴅᴇ ᴠɪᴅᴇᴏs."
    
     ABS_TEXT = " Please don't be selfish."
     
