@@ -103,7 +103,7 @@ if __name__ == "__main__" :
     @app.on_message(filters.incoming & filters.command(["settings", f"settings@{BOT_USERNAME}"]))
     async def settings(app, message):
         if message.from_user.id in AUTH_USERS:
-            await message.reply_text(f"<b>ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ꜱᴇᴛᴛɪɴɢꜱ ᴡɪʟʟ ʙᴇ ᴀᴅᴅᴇᴅ ᴛᴏ ʏᴏᴜʀ ᴠɪᴅᴇᴏ ꜰɪʟᴇ :</b>\n\n<b>ᴄᴏᴅᴇᴄ</b> : {codec[0]} \n<b>ᴄʀꜰ</b> : {crf[0]} \n<b>ʀᴇꜱᴏʟᴜᴛɪᴏɴ</b> : {resolution[0]} \n<b>ᴘʀᴇꜱᴇᴛ</b> : {preset[0]} \n<b>ᴀᴜᴅɪᴏ ʙɪᴛʀᴀᴛᴇꜱ</b> : {audio_b[0]}")
+            await message.reply_text(f"<b>ᴄᴜʀʀᴇɴᴛ sᴇᴛᴛɪɴɢs ᴀʀᴇ:</b>\n\n<b>ᴄᴏᴅᴇᴄ</b> : {codec[0]} \n<b>ᴄʀꜰ</b> : {crf[0]} \n<b>ʀᴇꜱᴏʟᴜᴛɪᴏɴ</b> : {resolution[0]} \n<b>ᴘʀᴇꜱᴇᴛ</b> : {preset[0]} \n<b>ᴀᴜᴅɪᴏ ʙɪᴛʀᴀᴛᴇꜱ</b> : {audio_b[0]}")
             
             
                
@@ -170,7 +170,7 @@ if __name__ == "__main__" :
     @app.on_message(filters.incoming & filters.command(["clear", f"clear@{BOT_USERNAME}"]))
     async def restarter(app, message):
       data.clear()
-      await message.reply_text("Successfully cleared Queue ...")
+      await message.reply_text("ǫᴜᴇᴜᴇ sᴜᴄᴄᴇssғᴜʟʟʏ ᴄʟᴇᴀʀᴇᴅ")
          
         
     @app.on_message(filters.incoming & (filters.video | filters.document))
@@ -189,7 +189,7 @@ if __name__ == "__main__" :
             return await message.reply_text("ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴜᴛʜᴏʀɪꜱᴇᴅ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ")
         os.system('rm thumb.jpg')
         await message.download(file_name='/app/thumb.jpg')
-        await message.reply_text('Thumbnail Added')
+        await message.reply_text('ᴛʜᴜᴍʙɴᴀɪʟ sᴇᴛ sᴜᴄᴄᴇssғᴜʟʟʏ')
         
     @app.on_message(filters.incoming & filters.command(["cancel", f"cancel@{BOT_USERNAME}"]))
     async def help_message(app, message):
@@ -242,7 +242,7 @@ if __name__ == "__main__" :
       ed = dt.now()
       v = ts(int((ed - uptime).seconds) * 1000)
       ms = (ed - stt).microseconds / 1000
-      p = f"hey I'm up 🥶 = {ms}ms"
+      p = f"ᴏɴʟɪɴᴇ sɪɴᴄᴇ = {ms}ms"
       await message.reply_text(v + "\n" + p)
 
     call_back_button_handler = CallbackQueryHandler(
