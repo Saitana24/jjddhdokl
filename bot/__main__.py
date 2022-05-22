@@ -210,7 +210,7 @@ if __name__ == "__main__" :
    
     @app.on_message(filters.incoming & filters.command(["help", f"help@{BOT_USERNAME}"]))
     async def help_message(app, message):
-        await message.reply_text("ʜᴇʀᴇ ᴀʀᴇ ᴍʏ sᴏᴍᴇ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.</b>\n\nɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟ ʜɪɢʜ ʟᴇᴠᴇʟ ᴇғғɪᴄɪᴇɴᴄʏ ᴠɪᴅᴇᴏ ᴇɴᴄᴏᴅɪɴɢ ʙᴏᴛ.\nᴊᴏɪɴ @anime_channelz ꜰᴏʀ ᴀɴɪᴍᴇꜱ.", quote=True)
+        await message.reply_text("ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟ ʜɪɢʜ ʟᴇᴠᴇʟ ᴇғғɪᴄɪᴇɴᴄʏ ᴠɪᴅᴇᴏ ᴇɴᴄᴏᴅɪɴɢ ʙᴏᴛ.\nᴊᴏɪɴ @anime_channelz ꜰᴏʀ ᴀɴɪᴍᴇꜱ.", quote=True)
 
     @app.on_message(filters.incoming & filters.command(["corrupt", f"corrupt@{BOT_USERNAME}"]))
     async def help_message(app, message):
