@@ -16,23 +16,24 @@ from bot.config import Config
 
 
 
-AUTH_USERS = [1938207469,1820242622]
+AUTH_USERS = [1938207469,1820242622,-1001574384360]
 
 SESSION_NAME = "Workflow2"
-TG_BOT_TOKEN = "2126359772:AAEIxfidHaag7BYhfdDJuDf8jX1f5bfPYQo"
+TG_BOT_TOKEN = "5280687033:AAELKoizQLB-YeN3dequAc-aNy-jjttbaOQ"
 APP_ID = 2630541
 API_HASH = "b3829c7abc1b23a555a6b2b2b236e016"
 
-LOG_CHANNEL = "hdhdhidjs"  # make sure to us this 
+LOG_CHANNEL = "hjufuiij"  # make sure to us this 
 DOWNLOAD_LOCATION = "/app/downloads"
 FREE_USER_MAX_FILE_SIZE = 2097152000
 MAX_MESSAGE_LENGTH = 4096
 FINISHED_PROGRESS_STR = "▓"
 UN_FINISHED_PROGRESS_STR = "░"
 BOT_START_TIME = time.time()
+CHAT_ID = -1001574384360
 LOG_FILE_ZZGEVC = "Log.txt"
-BOT_USERNAME = "GhjftudohgyhBot"
-UPDATES_CHANNEL = "Anime_Encoder"
+BOT_USERNAME = "TodorokiUniverseBot"
+UPDATES_CHANNEL = "anime_channelz"
 data = []
 crf = []
 watermark = []
