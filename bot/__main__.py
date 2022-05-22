@@ -210,7 +210,7 @@ if __name__ == "__main__" :
    
     @app.on_message(filters.incoming & filters.command(["help", f"help@{BOT_USERNAME}"]))
     async def help_message(app, message):
-        await message.reply_text("ʜᴇʀᴇ ᴀʀᴇ ᴍʏ sᴏᴍᴇ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.</b>\n\nɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟ ʜɪɢʜ ʟᴇᴠᴇʟ ᴇғғɪᴄɪᴇɴᴄʏ ᴠɪᴅᴇᴏ ᴇɴᴄᴏᴅɪɴɢ ʙᴏᴛ ᴄᴏᴅᴇᴅ ɪɴ ᴘʏᴛʜᴏɴ.\nʏᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴇɴᴄᴏᴅɪɴɢ sᴇᴛᴛɪɴɢs sᴜᴄʜ ᴀs ᴄʀғ, ᴄᴏᴅᴇᴄ, ᴀᴜᴅɪᴏ ʙɪᴛʀᴀᴛᴇs, sᴘᴇᴇᴅ ᴀɴᴅ ǫᴜᴀʟɪᴛʏ.</b>\nʏᴏᴜ ᴄᴀɴ sᴛᴏᴘ ᴘʀᴏᴄᴇssᴇs ɪɴ ʙᴇᴛᴡᴇᴇɴ ᴘʀᴇssɪɴɢ ᴛʜᴇ ᴄᴀɴᴄᴇʟ ʙᴜᴛᴛᴏɴ. \nꜰᴏʀ ꜰꜰᴍᴘᴇɢ ʟᴏᴠᴇʀꜱ - ᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴄʀꜰ ʙʏ /eval crf.insert(0, 'crf value')\nᴊᴏɪɴ @Animedubed ꜰᴏʀ ᴀɴɪᴍᴇꜱ \n\nᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs ᴡɪʟʟ ʙᴇ ᴀᴅᴅᴇᴅ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟᴇ.", quote=True)
+        await message.reply_text("ʜᴇʀᴇ ᴀʀᴇ ᴍʏ sᴏᴍᴇ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.</b>\n\nɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟ ʜɪɢʜ ʟᴇᴠᴇʟ ᴇғғɪᴄɪᴇɴᴄʏ ᴠɪᴅᴇᴏ ᴇɴᴄᴏᴅɪɴɢ ʙᴏᴛ.\nʏᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴇɴᴄᴏᴅɪɴɢ sᴇᴛᴛɪɴɢs sᴜᴄʜ ᴀs ᴄʀғ, ᴄᴏᴅᴇᴄ, ᴀᴜᴅɪᴏ ʙɪᴛʀᴀᴛᴇs, sᴘᴇᴇᴅ ᴀɴᴅ ǫᴜᴀʟɪᴛʏ.</b>\nʏᴏᴜ ᴄᴀɴ sᴛᴏᴘ ᴘʀᴏᴄᴇssᴇs ɪɴ ʙᴇᴛᴡᴇᴇɴ ᴘʀᴇssɪɴɢ ᴛʜᴇ ᴄᴀɴᴄᴇʟ ʙᴜᴛᴛᴏɴ. \nꜰᴏʀ ꜰꜰᴍᴘᴇɢ ʟᴏᴠᴇʀꜱ - ᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴄʀꜰ ʙʏ /eval crf.insert(0, 'crf value')\nᴊᴏɪɴ @anime_channelz ꜰᴏʀ ᴀɴɪᴍᴇꜱ \n\nᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs ᴡɪʟʟ ʙᴇ ᴀᴅᴅᴇᴅ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟᴇ.", quote=True)
 
     @app.on_message(filters.incoming & filters.command(["corrupt", f"corrupt@{BOT_USERNAME}"]))
     async def help_message(app, message):
